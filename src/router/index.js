@@ -1,22 +1,15 @@
-import Login from './pages/Login.vue'
-import NotFound from './pages/404.vue'
-import Home from './pages/Home.vue'
-import Main from './pages/Main.vue'
-import Table from './pages/nav1/Table.vue'
-import Form from './pages/nav1/Form.vue'
-import user from './pages/nav1/user.vue'
-import Page4 from './pages/nav2/Page4.vue'
-import Page5 from './pages/nav2/Page5.vue'
-import Page6 from './pages/nav3/Page6.vue'
-import echarts from './pages/charts/echarts.vue'
+import NotFound from '../pages/404.vue'
+import Home from '../pages/Home.vue'
+import Main from '../pages/Main.vue'
+import Table from '../pages/nav1/Table.vue'
+import Form from '../pages/nav1/Form.vue'
+import user from '../pages/nav1/user.vue'
+import Page4 from '../pages/nav2/Page4.vue'
+import Page5 from '../pages/nav2/Page5.vue'
+import Page6 from '../pages/nav3/Page6.vue'
+import echarts from '../pages/charts/echarts.vue'
 
 let routes = [
-    {
-        path: '/login',
-        component: Login,
-        name: '',
-        hidden: true
-    },
     {
         path: '/404',
         component: NotFound,
